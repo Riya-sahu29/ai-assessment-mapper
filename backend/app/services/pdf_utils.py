@@ -7,10 +7,7 @@ from pdf2image import convert_from_bytes
 from PIL import Image
 
 
-DPI = 80  # good balance of OCR accuracy vs. payload size / speed
-
-# Use an environment variable when provided.
-# On Render/Linux, leave this unset so pdf2image uses Poppler from PATH.
+DPI = 80  
 POPPLER_PATH = os.getenv("POPPLER_PATH")
 
 MAX_WIDTH = 1000
