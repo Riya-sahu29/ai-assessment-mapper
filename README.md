@@ -18,6 +18,9 @@ AI-powered tool that automatically maps handwritten student answer sheets to the
 - **AI-assisted grading** — evaluates each answered question and returns a score with feedback.
 
 ---
+## Live Demo
+- Frontend: https://ai-assessment-mapper-five.vercel.app/
+- Backend API: https://ai-assessment-mapper-backend.onrender.com
 
 ## 🏗️ Architecture
 
